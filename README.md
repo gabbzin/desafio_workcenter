@@ -1,87 +1,11 @@
-# Welcome to React Router!
+# 1º Decisão de UI/UX para o público do produto
 
-A modern, production-ready template for building full-stack React applications using React Router.
+No projeto, foquei em uma interface simples, direta e com boa hierarquia visual, pensando em facilitar o entendimento rápido do usuário. Destaquei as ações principais, como o “Comece gratuitamente”, e organizei as informações de forma escaneável. Também considerei responsividade desde o início, garantindo uma boa experiência em diferentes dispositivos.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+# 2º Parte do código que mais se orgulha
 
-## Features
+A parte que mais me orgulho foi a componentização da interface, principalmente nas seções como os cards de funcionalidades e planos. Estruturei tudo de forma reutilizável, pensando em manutenção e escalabilidade. Isso facilita tanto a evolução do projeto quanto o trabalho em equipe.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+# 3º O que faria se tivesse mais tempo
 
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Se tivesse mais tempo, investiria mais em interatividade e feedback visual, como animações sutis e estados de carregamento. Também melhoraria a acessibilidade e, se o produto já estivesse disponível, incluiria imagens reais da plataforma para deixar a experiência mais concreta para o usuário.
