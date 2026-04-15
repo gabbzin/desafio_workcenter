@@ -1,9 +1,7 @@
 import type { Config } from "tailwindcss";
 
 export default {
-  content: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./app/**/*.{js,ts,jsx,tsx}"],
 
   theme: {
     extend: {
@@ -17,16 +15,15 @@ export default {
         surface: "#FFFFFF",
         "surface-alt": "#F3F4F5",
 
-        "text-primary": "#191C1D",
-        "text-secondary": "#464554",
-        "text-footer": "#64748B",
+        "primary-text": "#191C1D",
+        "secondary-text": "#464554",
+        "footer-text": "#64748B",
 
         border: "#4B41DF",
       },
 
       backgroundImage: {
-        "primary-gradient":
-          "linear-gradient(135deg, #4B41DF 0%, #655EF9 100%)",
+        "primary-gradient": "linear-gradient(135deg, #4B41DF 0%, #655EF9 100%)",
       },
 
       boxShadow: {
@@ -40,11 +37,11 @@ export default {
       },
 
       maxWidth: {
-        container: "1200px",
+        container: "1440px",
       },
 
       spacing: {
-        section: "6rem", // espaçamento padrão entre seções
+        section: "7rem",
       },
 
       fontSize: {
