@@ -29,7 +29,7 @@ export function Testimonials() {
     <section id="testimonials" className="py-10 sm:py-14 lg:py-section">
       <Container>
         <header className="text-center">
-          <h2 className="font-extrabold font-heading text-section-title text-text-primary tracking-tight sm:text-4xl">
+          <h2 className="font-extrabold font-heading text-primary-text text-section-title tracking-tight sm:text-4xl">
             O que dizem os líderes
           </h2>
         </header>
@@ -48,15 +48,15 @@ export function Testimonials() {
                   {item.initials}
                 </span>
                 <div>
-                  <h3 className="font-semibold text-body-13 text-text-primary sm:text-sm">
+                  <h3 className="font-semibold text-body-13 text-primary-text sm:text-sm">
                     {item.name}
                   </h3>
-                  <p className="text-body-11 text-text-secondary sm:text-xs">
+                  <p className="text-body-11 text-secondary-text sm:text-xs">
                     {item.role}
                   </p>
                 </div>
               </div>
-              <p className="mt-3 text-body-13 text-text-secondary leading-relaxed sm:mt-4 sm:text-sm">
+              <p className="mt-3 text-body-13 text-secondary-text leading-relaxed sm:mt-4 sm:text-sm">
                 “{item.quote}”
               </p>
             </article>

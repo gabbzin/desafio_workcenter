@@ -8,7 +8,7 @@ export function Hero() {
       <Container>
         <div className="grid items-center gap-6 lg:grid-cols-2 lg:gap-14">
           <div>
-            <h1 className="font-extrabold font-heading text-hero-mobile text-text-primary tracking-tight sm:text-5xl sm:leading-tight lg:text-hero-desktop">
+            <h1 className="font-extrabold font-heading text-hero-mobile text-primary-text tracking-tight sm:text-5xl sm:leading-tight lg:text-hero-desktop">
               Gerencie seu
               <br />
               time remoto <span className="text-primary">sem</span>
@@ -16,7 +16,7 @@ export function Hero() {
               <span className="text-primary">complicação</span>
             </h1>
 
-            <p className="mt-4 max-w-xl text-sm text-text-secondary leading-relaxed sm:mt-5 sm:text-base">
+            <p className="mt-4 max-w-xl text-secondary-text text-sm leading-relaxed sm:mt-5 sm:text-base">
               Organize tarefas, acompanhe o progresso e colabore em um só lugar.
               Projetado para produtividade, automático e com uma experiência que
               cresce com o seu time.

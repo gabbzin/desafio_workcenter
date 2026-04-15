@@ -27,7 +27,7 @@ export function Header() {
               <li key={item.href}>
                 <a
                   href={item.href}
-                  className="font-medium text-sm text-text-secondary transition hover:text-text-primary focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
+                  className="font-medium text-secondary-text text-sm transition hover:text-primary-text focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
                 >
                   {item.label}
                 </a>
@@ -39,7 +39,7 @@ export function Header() {
             <button
               type="button"
               aria-label="Abrir menu"
-              className="inline-flex h-9 w-9 items-center justify-center rounded-xl text-lg text-text-primary ring-1 ring-black/10 transition hover:bg-background-secondary focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 md:hidden"
+              className="inline-flex h-9 w-9 items-center justify-center rounded-xl text-lg text-primary-text ring-1 ring-black/10 transition hover:bg-background-secondary focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2 md:hidden"
             >
               <span aria-hidden="true">☰</span>
             </button>
@@ -47,7 +47,7 @@ export function Header() {
             <div className="hidden items-center gap-2 sm:gap-3 md:flex">
               <a
                 href="#cta"
-                className="px-3 py-2 font-semibold text-primary text-sm transition hover:text-text-primary focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
+                className="px-3 py-2 font-semibold text-primary text-sm transition hover:text-primary-text focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
               >
                 Login
               </a>

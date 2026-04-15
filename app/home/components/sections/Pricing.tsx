@@ -19,7 +19,7 @@ const proPlan = [
 
 function FeatureItem({ text }: { text: string }) {
   return (
-    <li className="flex items-start gap-2 text-sm text-text-secondary">
+    <li className="flex items-start gap-2 text-secondary-text text-sm">
       <span aria-hidden="true" className="mt-0.5 text-primary">
         ●
       </span>
@@ -39,12 +39,12 @@ export function Pricing() {
 
         <div className="mt-7 grid gap-4 md:mx-auto md:max-w-3xl md:grid-cols-2 md:gap-5">
           <article className="flex flex-col rounded-2xl bg-surface p-5 shadow-soft ring-1 ring-black/5 sm:p-6">
-            <h3 className="font-bold font-heading text-base text-text-primary sm:text-lg">
+            <h3 className="font-bold font-heading text-base text-primary-text sm:text-lg">
               Plano Gratuito
             </h3>
-            <p className="mt-1.5 font-extrabold font-heading text-3xl text-text-primary sm:mt-2 sm:text-4xl">
+            <p className="mt-1.5 font-extrabold font-heading text-3xl text-primary-text sm:mt-2 sm:text-4xl">
               R$0
-              <span className="ml-1 font-medium text-sm text-text-secondary">
+              <span className="ml-1 font-medium text-secondary-text text-sm">
                 /mês
               </span>
             </p>
@@ -62,12 +62,12 @@ export function Pricing() {
             <span className="absolute -top-3 right-3 rounded-full bg-primary px-2.5 py-1 font-bold text-body-10 text-white uppercase tracking-wide sm:right-5 sm:px-3 sm:text-body-11">
               Mais popular
             </span>
-            <h3 className="font-bold font-heading text-base text-text-primary sm:text-lg">
+            <h3 className="font-bold font-heading text-base text-primary-text sm:text-lg">
               Plano Pro
             </h3>
-            <p className="mt-1.5 font-extrabold font-heading text-3xl text-text-primary sm:mt-2 sm:text-4xl">
+            <p className="mt-1.5 font-extrabold font-heading text-3xl text-primary-text sm:mt-2 sm:text-4xl">
               R$300
-              <span className="ml-1 font-medium text-sm text-text-secondary">
+              <span className="ml-1 font-medium text-secondary-text text-sm">
                 /mês
               </span>
             </p>

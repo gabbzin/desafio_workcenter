@@ -11,7 +11,7 @@ import {
 
 export function Page() {
   return (
-    <div className="min-h-screen overflow-x-hidden bg-background text-text-primary">
+    <div className="min-h-screen overflow-x-hidden bg-background text-primary-text">
       <Header />
       <main>
         <Hero />

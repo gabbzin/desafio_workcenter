@@ -15,7 +15,7 @@ const variants = {
   primary:
     "bg-primary text-white shadow-soft hover:bg-primary-light active:translate-y-px",
   secondary:
-    "bg-white text-text-primary ring-1 ring-inset ring-gray-300 hover:bg-gray-50",
+    "bg-white text-primary-text ring-1 ring-inset ring-gray-300 hover:bg-gray-50",
 };
 
 export function ActionLink({

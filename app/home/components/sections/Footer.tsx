@@ -17,7 +17,7 @@ export function Footer() {
             <h3 className="font-extrabold font-heading text-base text-primary">
               WorkCenter
             </h3>
-            <p className="text-text-secondary/80 text-xs">
+            <p className="text-secondary-text/80 text-xs">
               © 2026 WorkCenter. Todos os direitos reservados.
             </p>
           </div>
@@ -28,7 +28,7 @@ export function Footer() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    className="transition hover:text-text-primary focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
+                    className="transition hover:text-primary-text focus-visible:outline-2 focus-visible:outline-primary focus-visible:outline-offset-2"
                   >
                     {link.label}
                   </a>

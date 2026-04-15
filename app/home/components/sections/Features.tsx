@@ -42,10 +42,10 @@ function FeatureCard({ feature }: { feature: Feature }) {
       <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-primary/10 text-primary">
         <Icon className="h-5 w-5" />
       </span>
-      <h3 className="mt-3 font-bold font-heading text-base text-text-primary sm:mt-4 sm:text-lg">
+      <h3 className="mt-3 font-bold font-heading text-base text-primary-text sm:mt-4 sm:text-lg">
         {feature.title}
       </h3>
-      <p className="mt-2 text-body-13 text-text-secondary leading-relaxed sm:text-sm">
+      <p className="mt-2 text-body-13 text-secondary-text leading-relaxed sm:text-sm">
         {feature.description}
       </p>
     </article>
@@ -70,4 +70,3 @@ export function Features() {
     </section>
   );
 }
-  

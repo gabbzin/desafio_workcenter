@@ -31,10 +31,10 @@ export function Steps() {
               <p className="font-extrabold font-heading text-4xl text-primary/60 leading-none sm:text-5xl">
                 {index + 1}
               </p>
-              <h3 className="mt-2.5 font-bold font-heading text-base text-text-primary sm:mt-3 sm:text-lg">
+              <h3 className="mt-2.5 font-bold font-heading text-base text-primary-text sm:mt-3 sm:text-lg">
                 {step.title}
               </h3>
-              <p className="mt-2 text-body-13 text-text-secondary leading-relaxed sm:text-sm">
+              <p className="mt-2 text-body-13 text-secondary-text leading-relaxed sm:text-sm">
                 {step.description}
               </p>
             </li>
