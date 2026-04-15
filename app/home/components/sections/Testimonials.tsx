@@ -1,24 +1,32 @@
 import { Container } from "../layout/Container";
 
-const testimonials = [
+interface Testimonial {
+  name: string;
+  role: string;
+  image?: string;
+  quote: string;
+}
+
+const testimonials: Testimonial[] = [
   {
     name: "Sarah Chen",
     role: "CEO, LogiTech",
-    initials: "SC",
+    image: "./sarah-chen.png",
+    
     quote:
       "A plataforma transformou nossa rotina de gestão. Hoje, nosso time trabalha mais alinhado e com clareza.",
   },
   {
     name: "Marcus Thorne",
     role: "CTO, NovaWare",
-    initials: "MT",
+    image: "./marcus-thorne.png",
     quote:
       "A visibilidade no dia a dia trouxe mais previsibilidade nas entregas e reduziu retrabalho.",
   },
   {
     name: "Elena Rodriguez",
     role: "Founder, BloomLabs",
-    initials: "ER",
+    image: "./elena-rodriguez.png",
     quote:
       "Implementamos em dias e o resultado foi imediato. Excelente para equipes remotas.",
   },
@@ -34,19 +42,18 @@ export function Testimonials() {
           </h2>
         </header>
 
-        <div className="mt-7 grid gap-3.5 md:grid-cols-3 md:gap-6">
+        <div className="mt-7 grid gap-4 md:grid-cols-3 md:gap-8">
           {testimonials.map(item => (
             <article
               key={item.name}
               className="rounded-2xl bg-surface p-4 shadow-soft ring-1 ring-black/5 sm:p-5"
             >
               <div className="flex items-center gap-3">
-                <span
-                  aria-hidden="true"
-                  className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-primary/15 font-bold text-primary text-xs"
-                >
-                  {item.initials}
-                </span>
+                <img
+                  src={item.image}
+                  alt={item.name}
+                  className="size-12 rounded-full"
+                />
                 <div>
                   <h3 className="font-semibold text-body-13 text-primary-text sm:text-sm">
                     {item.name}

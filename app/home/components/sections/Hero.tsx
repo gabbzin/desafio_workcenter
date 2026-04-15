@@ -45,7 +45,7 @@ export function Hero() {
 
           <div className="hidden overflow-hidden rounded-2xl bg-surface shadow-card ring-1 ring-black/5 lg:block">
             <img
-              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80"
+              src="./hero.png"
               alt="Equipe colaborando em uma mesa"
               className="h-full min-h-65 w-full object-cover"
               loading="lazy"

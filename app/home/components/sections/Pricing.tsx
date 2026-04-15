@@ -37,7 +37,7 @@ export function Pricing() {
           description="Escolha o plano ideal para sua equipe no momento atual e escale no seu ritmo."
         />
 
-        <div className="mt-7 grid gap-4 md:mx-auto md:max-w-3xl md:grid-cols-2 md:gap-5">
+        <div className="mt-7 grid gap-4 md:mx-auto md:max-w-3xl md:grid-cols-2 md:gap-10 lg:gap-14">
           <article className="flex flex-col rounded-2xl bg-surface p-5 shadow-soft ring-1 ring-black/5 sm:p-6">
             <h3 className="font-bold font-heading text-base text-primary-text sm:text-lg">
               Plano Gratuito
