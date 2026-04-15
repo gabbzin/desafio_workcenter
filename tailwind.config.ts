@@ -46,6 +46,13 @@ export default {
 
       fontSize: {
         hero: ["3rem", { lineHeight: "1.2" }],
+        "hero-mobile": ["2rem", { lineHeight: "1.12" }],
+        "hero-desktop": ["56px", { lineHeight: "1.08" }],
+        "section-title": ["1.75rem", { lineHeight: "1.2" }],
+        "cta-title": ["1.9rem", { lineHeight: "1.15" }],
+        "body-13": "13px",
+        "body-11": "11px",
+        "body-10": "10px",
       },
     },
   },
